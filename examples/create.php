@@ -3,7 +3,7 @@
  * 创建媒资请求
  */
 require dirname(__DIR__).'/vendor/autoload.php';
-require dirname(__DIR__).'/init.php';
+require 'init.php';
 
 use hwcvod\vod\client\VodConfig;
 use hwcvod\vod\client\VodClient;
