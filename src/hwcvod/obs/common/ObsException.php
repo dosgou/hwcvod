@@ -3,7 +3,7 @@ namespace hwcvod\obs\common;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use hwcvod\obs\Log\S3Log;
+use hwcvod\obs\log\S3Log;
 
 class ObsException extends \RuntimeException
 {

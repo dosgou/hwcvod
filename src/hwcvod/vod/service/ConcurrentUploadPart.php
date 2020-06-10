@@ -1,7 +1,7 @@
 <?php
 namespace hwcvod\vod\service;
 
-use hwcvod\obs\Common\ObsException;
+use hwcvod\obs\common\ObsException;
 use hwcvod\vod\client\VodClient;
 use hwcvod\vod\model\InitiateMultipartUploadReq;
 use hwcvod\vod\model\MultipartUploadReq;

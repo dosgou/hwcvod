@@ -7,7 +7,7 @@ use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;
 use hwcvod\obs\common\Model;
-use hwcvod\obs\s3\Resource\RequestResource;
+use hwcvod\obs\s3\resource\RequestResource;
 use hwcvod\obs\common\ObsException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;

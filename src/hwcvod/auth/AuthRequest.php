@@ -2,7 +2,7 @@
 namespace hwcvod\auth;
 
 use hwcvod\vod\client\VodClient;
-use hwcvod\vodException\VodException;
+use hwcvod\exception\VodException;
 
 class AuthRequest{
     public $method = '';
